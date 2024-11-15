@@ -11,6 +11,10 @@ package com.mycompany.helloapp;
 public class HelloApp {
 
     public static void main(String[] args) {
+        
+        Student student=new Student();
+        
+        student.getName();
         System.out.println("Hello World!");
         System.out.println("Hello World from github");
 
